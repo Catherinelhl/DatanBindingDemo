@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\DatanBindingDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\AndroidStudioProjects\\DatanBindingDemo\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\DatanBindingDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_start.xml",
+        "source": "D:\\AndroidStudioProjects\\DatanBindingDemo\\app\\src\\main\\res\\layout\\fragment_start.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\DatanBindingDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_login.xml",
+        "source": "D:\\AndroidStudioProjects\\DatanBindingDemo\\app\\src\\main\\res\\layout\\fragment_login.xml"
+    }
+]

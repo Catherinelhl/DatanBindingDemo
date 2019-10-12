@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/frg_start">
+
+    <fragment
+        android:id="@+id/frg_start"
+        android:name="com.cathy.datanbindingdemo.fragment.StartFragment"
+        android:label="Start"
+        tools:layout="@layout/fragment_start">
+
+        <argument
+            android:name="userBean"
+            android:defaultValue="@null"
+            app:nullable="true"
+            app:argType="com.cathy.datanbindingdemo.bean.UserBean"
+            />
+        <action
+            android:id="@+id/another_interface_action"
+            app:destination="@id/frg_login" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/frg_login"
+        android:name="com.cathy.datanbindingdemo.fragment.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/another_interface_two_action"
+            app:destination="@id/frg_start" />
+    </fragment>
+</navigation>
